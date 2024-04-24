@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Kokoa Clone</title>
+  </head>
+  <body>
+    <div id="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fa-solid fa-battery-full fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <div>
+      <header class="welcome-header">
+        <h1 class="welcome-header__title">코코아톡에 오신 걸 환영합니다.</h1>
+        <p class="welcome-header__text">
+          만약 코코아톡 아이디가 있다면, 이메일 또는 휴대전화 번호로 로그인
+          해주세요.
+        </p>
+      </header>
+    </div>
+
+    <form id="login-form">
+      <input type="text" placeholder="이메일 or 휴대전화 번호" />
+      <input type="password" placeholder="비밀번호" />
+      <input type="submit" value="로그인" />
+      <input type="submit" value="회원가입" />
+      <a href="#">아이디 or 비밀번호 찾기</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/3449d254c5.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
